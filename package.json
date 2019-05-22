@@ -1,0 +1,34 @@
+{
+  "name": "ajs_mod2",
+  "version": "1.0.0",
+  "description": "AJS Modules Task#2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "debug": "webpack --debug --display-error-details",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anikolaevski/ajs_mod2.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Alexey Nikolaevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anikolaevski/ajs_mod2/issues"
+  },
+  "homepage": "https://github.com/anikolaevski/ajs_mod2#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
